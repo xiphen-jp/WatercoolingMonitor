@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ComPort>COM5</ComPort>
+  <CheckInterval>5000</CheckInterval>
+  <ReceiveTimeout>10000</ReceiveTimeout>
+  <DataCount>10000</DataCount>
+  <NvSmiPath>C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe</NvSmiPath>
+  <WaterTempLimit>50</WaterTempLimit>
+  <AvgSeconds>5</AvgSeconds>
+  <TestMode>false</TestMode>
+  <Devices>
+    <Device>
+      <Order>1</Order>
+      <Label>RPM Signal (Pump)</Label>
+      <Format>int</Format>
+      <Unit>rpm</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>2</Order>
+      <Label>RPM Signal (Front1)</Label>
+      <Format>int</Format>
+      <Unit>rpm</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>3</Order>
+      <Label>RPM Signal (Front2)</Label>
+      <Format>int</Format>
+      <Unit>rpm</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>4</Order>
+      <Label>RPM Signal (Front3)</Label>
+      <Format>int</Format>
+      <Unit>rpm</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>5</Order>
+      <Label>RPM Signal (Bottom)</Label>
+      <Format>int</Format>
+      <Unit>rpm</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>6</Order>
+      <Label>RPM Signal (Top1)</Label>
+      <Format>int</Format>
+      <Unit>rpm</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>7</Order>
+      <Label>RPM Signal (Top2)</Label>
+      <Format>int</Format>
+      <Unit>rpm</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>8</Order>
+      <Label>RPM Signal (Top3)</Label>
+      <Format>int</Format>
+      <Unit>rpm</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>9</Order>
+      <Label>RPM Signal (Rear)</Label>
+      <Format>int</Format>
+      <Unit>rpm</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>10</Order>
+      <Label>Temperature (Water)</Label>
+      <Format>2f</Format>
+      <Unit>℃</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>11</Order>
+      <Label>Temperature (Room)</Label>
+      <Format>2f</Format>
+      <Unit>℃</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>12</Order>
+      <Label>PWM Duty Cycle (Pump)</Label>
+      <Format>int</Format>
+      <Unit>%</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>13</Order>
+      <Label>PWM Duty Cycle (1200rpm FAN)</Label>
+      <Format>int</Format>
+      <Unit>%</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>14</Order>
+      <Label>PWM Duty Cycle (1500rpm FAN)</Label>
+      <Format>int</Format>
+      <Unit>%</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>15</Order>
+      <Label>CPU Usage (3sec Avg.)</Label>
+      <Format>int</Format>
+      <Unit>%</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+    <Device>
+      <Order>16</Order>
+      <Label>GPU Usage (3sec Avg.)</Label>
+      <Format>int</Format>
+      <Unit>%</Unit>
+      <AlertLevel>0</AlertLevel>
+      <AlertThreshold xsi:nil="true" />
+    </Device>
+  </Devices>
+</Settings>

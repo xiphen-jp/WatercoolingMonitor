@@ -1,0 +1,43 @@
+﻿<Window x:Class="WatercoolingMonitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WatercoolingMonitor"
+        mc:Ignorable="d"
+        Title="Watercooling Monitor" Height="380" Width="240">
+    <Grid>
+        <Label Content="{Binding Labels[0]}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[1]}" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[2]}" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[3]}" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[4]}" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[5]}" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[6]}" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[7]}" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[8]}" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[9]}" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[10]}" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[11]}" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[12]}" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[13]}" HorizontalAlignment="Left" Margin="10,270,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[14]}" HorizontalAlignment="Left" Margin="10,290,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Labels[15]}" HorizontalAlignment="Left" Margin="10,310,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[0].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[1].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,30,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[2].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,50,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[3].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,70,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[4].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,90,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[5].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,110,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[6].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,130,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[7].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,150,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[8].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,170,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[9].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,190,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[10].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,210,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[11].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,230,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[12].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,250,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[13].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,270,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[14].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,290,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+        <Label Content="{Binding Params[15].Value}" ContentStringFormat="{}{0}" HorizontalAlignment="Right" Margin="0,310,10,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial"/>
+    </Grid>
+</Window>
